@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ESS_SolentProperty.jnlp">
+  <information>
+    <title>ESS_SolentProperty</title>
+    <vendor>1leszd34</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ESS_SolentProperty.jar" size="28356" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ESS_SolentProperty" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ess_solentproperty.Launch"  name="ESS_SolentProperty" />
+  <update check="always"/>
+</jnlp>
